@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Light green background */
+}
+
+hr {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    width: 50%;
+}
+
+header {
+    background-color: #58a4b0;
+}
+
+.in-header {
+    display: flex;
+    margin: 0 4rem 0 4rem;
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    font-weight: 300;
+}
+
+li:hover span {
+    color: black;
+}
+
+
+header nav {
+    margin-right: 0rem; /*see Here*/
+}
+
+header h1 {
+    font-size: 65px;
+    width: fit-content;
+}
+
+header a {
+    font-size: 27px;
+    font-weight: 200;
+}
+
+
+header .exalt-style {
+    color: black;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 120px;
+    text-align: center;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: #FFFFFF 2px solid;
+    width: 11rem;
+    height:3rem;
+    font-size: 20px;
+    border-radius: 1.6rem;   
+}
+
+.login:hover {
+    border: rgb(50, 51, 121) 2px solid;    
+    cursor: pointer;
+}
+
+.cleaner-home {
+    background-color: #58a4b0;
+}
+
+.cleaner-guy {
+    display:grid;
+    grid-template-rows: auto;
+    margin-top: 0;
+    background-image: url(imgs/cleaner-girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cleaner-home .cleaner-guy .try-service {
+    text-align: center;
+    margin-left: 24px;
+    margin-left: 45em;
+    margin-top: 15rem;
+    max-height: 19rem;
+    max-width: 60rem;
+}
+
+.cleaner-home .cleaner-guy .try-service h2 {
+    font-size: 3.3rem;
+    color:rgb(50, 51, 121);
+    font-weight: 200;
+    margin-bottom: 4rem;   
+    background-color: whitesmoke;
+}
+
+.cleaner-home .cleaner-guy .try-service p {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(50, 51, 121);
+}
+
+.where {
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 15%;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    background-color: #4d8e9a;
+    width: 25rem;
+    height: 2rem;
+}
+
+.where h6 {
+    margin-left: 2rem;
+}
+
+.cleaner-home .cleaner-guy .try-service h2:hover {
+    font-weight: 300;
+}
+
+
+.cleaner-guy:hover {
+    opacity: 90%;
+    transition-duration: 1s;
+}
+
+.eastlondon {
+    text-align: center;
+    justify-content: center;
+    /* margin-left: ; */
+}
+
+.service {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(248, 254, 255);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.service .cleaner-guy-advise h4  {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.passage {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.short-passage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    margin-top: 8rem;
+    width: 83rem;
+}
+
+.passage .short-passage p {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/*shop style*/
+.service .in-the-service {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1,5rem;
+}
+
+.service .in-the-service .house-sec {
+    text-align: center;
+    padding: 2rem;
+}
+
+.service .in-the-service .house-sec .image {
+    height: 35rem;
+}
+
+.service .in-the-service .house-sec img {
+    padding-bottom: 2.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+
+.service .in-the-service .house-sec .sec h4 {
+    /* color: green; */
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+
+.service .in-the-service .house-sec img:hover {
+    transform: scale(1.005);
+}
+
+.service h6 {
+    font-size: 30px;
+    /* width: 42rem; */
+    font-weight: 400;
+    font-style: italic;
+    align-self: center;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('imgs/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero .try_service-2 {
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 400px;
+    /* width: fit-content; */
+    margin-left: 88vh;
+    align-self: center;
+}
+
+.book-now {
+    /* margin-top: 24rem; */
+    /* background-color: red; */
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: #58a4b0;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn:hover {
+    background-color: #4d8e9a; 
+}
+
+footer {
+    background-color: #58a4b0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.green-container {
+    display: flex;
+    background-color: azure;
+    height: 30rem;
+    margin-top: 12rem;
+}
+
+.green-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 15rem;
+    gap: 10rem;
+
+}
+
+.green-item {
+    text-align: center;
+
+}
+
+.green-item .image {
+    display: inline-block;
+    margin: 0 auto;
+    border: #4d8e9a solid 4px;
+    border-radius: 110px;
+    height: 200px;
+    width: 200px;
+}
+
+.green-item .image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 110px;
+}
+
+.green-item h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
